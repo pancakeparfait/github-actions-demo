@@ -1,6 +1,6 @@
 # Github Actions Demo
 
-![Production](https://github.com/pancakeparfait/github-actions-demo/actions/workflows/node.js.yml/badge.svg)
+![Production](https://github.com/pancakeparfait/github-actions-demo/actions/workflows/main.yml/badge.svg)
 
 # Getting Started with Create React App
 
