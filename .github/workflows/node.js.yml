@@ -58,7 +58,9 @@ jobs:
     needs: test
 
     steps:
-    - name: Login to Heroku
+    - name: Add Heroku Remote
       env: 
         HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-      run: heroku login
+      run: heroku git:remote -a jw-github-actions-demo
+    - name: Push to Heroku Remote
+      run: git push heroku main 
