@@ -41,7 +41,7 @@ jobs:
     - name: npm install and test
       run: | # get cached npm packages instead
         npm install
-        npm test
+        npm run test:nowatch
       env:
         CI: true
 
